@@ -16,6 +16,10 @@ public class Animal {
     public boolean eat(String fooType){
         return true;
     }
+
+    public void showMood(boolean mood){
+
+    }
 }
 
 
