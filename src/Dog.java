@@ -7,8 +7,12 @@ public class Dog extends Animal {
 
 
     @Override
-    public void makeSound(String sound){
-        System.out.println(sound);
+    public void makeSound(){
+        System.out.println("Güau");
 
+    }
+    @Override
+    public boolean eat(String fooType){
+        return true;
     }
 }
