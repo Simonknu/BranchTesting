@@ -8,7 +8,8 @@ public class Animal {
         this.name = name;
     }
 
-    public void makeSound(){
+    public void makeSound(String sound){
+        System.out.println(sound);
 
     }
 }
