@@ -11,4 +11,10 @@ public class Animal {
     public void makeSound(){
 
     }
+
+    public boolean eat(String fooType){
+        return true;
+    }
+}
+
 }
